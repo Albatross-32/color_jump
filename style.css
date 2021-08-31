@@ -3,7 +3,15 @@
     margin: 0;
     overflow-x: hidden;
 }
+.body{
+    background: url("candy-jump.png");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .game{
+    background: linear-gradient(blue,yellow);
     width: 500px;
     height: 200px;
     border: 2px solid black;
@@ -12,7 +20,7 @@
 #character{
     width: 20px;
     height: 50px;
-    background-color: blue;
+    background-color: red;
     position:relative;
     top: 150px;
 }
@@ -27,7 +35,7 @@
 }
 
 #block{
-    background-color: yellow;
+    background-color: blue;
     width: 20px;
     height: 20px;
     position: relative;
